@@ -1,0 +1,22 @@
+/*le-UI form表单样式*/
+.le-form{
+	overflow: hidden;
+	zoom:1;
+}
+.le-form-item{
+	margin: 20px 0px;
+	padding-left: 170px;
+	overflow: hidden;
+}
+.le-form-item .le-label{
+	display: block;
+	float: left;
+	width: 156px;
+	margin-left: -180px;
+	font-family: 'Microsoft yahei';
+	font-size: 14px;
+	line-height: 28px;
+	text-align: right;
+	color: #666;
+}
+

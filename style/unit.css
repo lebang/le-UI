@@ -1,0 +1,15 @@
+.le-input{
+	width: 200px;
+	height: 26px;
+	padding: 2px 9px;
+	border: 1px solid #c1c1c1;
+	outline: none;
+	line-height: 26px;
+	color: #595959;
+	font-size: 14px;
+}
+.le-checkbox{
+	position: relative;
+	top:-2px \9;
+	vertical-align: bottom;
+}
