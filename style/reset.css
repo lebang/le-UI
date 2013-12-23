@@ -58,6 +58,11 @@ ins,a {
     text-decoration:none;
 }
 
+/*链接，按钮  鼠标显示手型*/
+a, button{
+	cursor: pointer;
+}
+
 /* 代码字体 */
 code,
 kbd,

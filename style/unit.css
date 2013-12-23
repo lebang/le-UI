@@ -8,8 +8,28 @@
 	color: #595959;
 	font-size: 14px;
 }
+
 .le-checkbox{
 	position: relative;
-	top:-2px \9;
-	vertical-align: bottom;
+	width: 14px;
+	height: 14px;
+	top: 2px;
+	*top: -2px;
+	vertical-align: baseline;
+}
+
+.le-btn{
+	width: 80px;
+	height: 32px;
+	border: 1px solid #999;
+	line-height: 30px;
+	font-size: 14px;
+	font-family: 'Microsoft yahei';
+	color: #333;
+	outline: none;
+	cursor: pointer;
+}
+.le-btn:focus{
+	position: relative;
+	top: 1px;
 }
