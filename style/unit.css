@@ -37,7 +37,11 @@
 	width: 90px;
 	height: 32px;
 	vertical-align: top;
-	background: #000;
+	background: #c1c1c1;
 	line-height: 30px;
-	color: blue;
+	text-align: center;
+	font-size: 16px;
+	color: #07f;
+	letter-spacing: .2em;
+	cursor: pointer;
 }
