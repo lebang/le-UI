@@ -35,6 +35,12 @@
     white-space: nowrap;
 }
 
+/*反转字符串*/
+.fn-text-reverse {
+    unicode-bidi:bidi-override; 
+    direction: rtl;
+}
+
 /* 简单的渐变 */
 .fn-linear {
     background: -webkit-gradient(linear, left top, left bottom, from(#fcfcfc), to(#f1f1f1));
