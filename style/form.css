@@ -2,24 +2,22 @@
 .le-form{
 	overflow: hidden;
 	zoom:1;
+	padding: 10px;
 	color: #666;
-	font-size: 14px;
-	font-family: 'Microsoft yahei';
 }
 .le-form-item{
 	margin: 20px 0px;
-	padding-left: 170px;
+	padding:1px 0px 1px 170px;
 	overflow: hidden;
+	zoom:1;
 }
 .le-form-item .le-label{
 	display: block;
 	float: left;
 	width: 170px;
 	margin-left: -180px;
-	font-size: 14px;
-	font-family: 'Microsoft yahei';
-	line-height: 28px;
+	_margin-left: -100px;
+	padding-top: 6px;
 	text-align: right;
-	color: #666;
 }
 
