@@ -1,6 +1,7 @@
 .le-input{
 	width: 200px;
 	height: 26px;
+	line-height: 26px;
 	padding: 2px 9px;
 	border: 1px solid #c1c1c1;
 	outline: none;
@@ -8,6 +9,10 @@
 }
 .le-sinput{
 	width: 100px;
+}
+.le-input:focus{
+	border: 1px #07f solid;
+	box-shadow: 0 0 3px #8cddff;
 }
 
 .le-checkbox{
