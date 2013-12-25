@@ -1,0 +1,11 @@
+@import url("reset.css");
+@import url("unit.css");
+@import url("form.css");
+
+/*注册页面start*/
+#login-box{
+	width:520px;
+	background: #f5f5f5;
+	margin: 0px auto;
+}
+/*注册页面end*/
