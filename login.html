@@ -8,7 +8,7 @@
 	<link rel="stylesheet" href="./style/form.css">
 	<link rel="stylesheet" href="./style/fn.css">
 	<style>
-		.login-box{
+		#login-box{
 			width:520px;
 			background: #f5f5f5;
 			margin: 0px auto;
@@ -16,11 +16,15 @@
 	</style>
 </head>
 <body>
-	<div class="login-box">
+	<div id="login-box">
 		<form class="le-form">
 			<div class="le-form-item">
 				<label for="username" class="le-label">用户名:</label>
 				<input class="le-input" id="username" type="text" placeholder="请输入用户名/手机号"/>
+				<span class="le-tiptxt le-tiptxt-fail">X</span>
+				<p class="le-form-explain">
+					允许输入6-8个字符
+				</p>
 			</div>
 
 			<div class="le-form-item">

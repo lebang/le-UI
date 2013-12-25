@@ -17,11 +17,10 @@
 
 .le-checkbox{
 	position: relative;
-	width: 14px;
-	height: 14px;
+	font-size: 14px;
 	top: 2px;
-	*top: -2px;
 	vertical-align: baseline;
+	_margin-left:-30px;
 }
 
 .le-btn{
@@ -35,6 +34,20 @@
 .le-btn:focus{
 	position: relative;
 	top: 1px;
+}
+
+.le-tiptxt{
+	font-size: 12px;
+	vertical-align: middle;
+	border-radius: 2px;
+}
+
+.le-tiptxt-success{
+	color: green;
+}
+
+.le-tiptxt-fail{
+	color:red;
 }
 
 .le-code{
